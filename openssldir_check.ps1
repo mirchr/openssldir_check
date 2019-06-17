@@ -8,7 +8,7 @@
 # change to the path where openssldir_check.exe is installed
 cd /code
 
-# Use libcrypt-1*.dll for OpenSSL 1.1+
+# Use libcrypto-1*.dll for OpenSSL 1.1+
 Get-ChildItem -path c:\ -Include libeay32.dll -recurse -ErrorAction SilentlyContinue | ForEach-Object -Process {
 
     $f = $_.Fullname;
