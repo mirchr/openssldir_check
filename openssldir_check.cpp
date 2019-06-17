@@ -4,7 +4,7 @@
 */
 
 
-#include "pch.h"
+//#include "pch.h"
 #include <cstring>
 #include <iostream>
 #include <stdlib.h>
