@@ -16,7 +16,11 @@ Get-ChildItem -path c:\ -Include libeay32.dll -recurse -ErrorAction SilentlyCont
     Write-host $f;
 
     .\openssldir_check.exe $f
-    # XXX: check return code and execute 32-bit version if bad image
-    #openssldir_check32.exe $f
+    # ERROR_BAD_EXE_FORMAT = 193. Assume the library is 32-bit.
+    if($LastExitCode -eq 193)
+    {
+        Write-Debug "64-bit check failed - trying 32-bit"
+        .\openssldir_check32.exe $f
+    }
     Write-host
 }
