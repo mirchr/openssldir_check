@@ -16,6 +16,10 @@
 #define SSLEAY_VERSION 0
 #define SSLEAY_DIR 5
 
+// OpenSSL 1.1+ openssl/crypto.h
+#define OPENSSL_VERSION 0
+#define OPENSSL_DIR 4
+
 using namespace std;
 
 // https://www.openssl.org/docs/man1.0.2/man3/SSLeay_version.html
@@ -90,8 +94,8 @@ int wmain(int argc, wchar_t **argv)
 			return EXIT_FAILURE;
 		}
 
-		cout << "SSLeay_version() returned " << SSLeay_version(0) << endl;
-		cout << "SSLeay_version() returned " << SSLeay_version(5) << endl;
+		cout << "SSLeay_version() returned " << SSLeay_version(SSLEAY_VERSION) << endl;
+		cout << "SSLeay_version() returned " << SSLeay_version(SSLEAY_DIR) << endl;
 	}
 	else
 	{
@@ -103,8 +107,8 @@ int wmain(int argc, wchar_t **argv)
 			cerr << "OpenSSL_version() not found" << endl;
 			return EXIT_FAILURE;
 		}
-		cout << "OpenSSL_version() returned " << OpenSSL_version(0) << endl;
-		cout << "OpenSSL_version() returned " << OpenSSL_version(4) << endl;
+		cout << "OpenSSL_version() returned " << OpenSSL_version(OPENSSL_VERSION) << endl;
+		cout << "OpenSSL_version() returned " << OpenSSL_version(OPENSSL_DIR) << endl;
 	}
 
 	bool retval = FreeLibrary(hLibModule);
