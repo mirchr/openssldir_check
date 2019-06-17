@@ -35,12 +35,12 @@ int wmain(int argc, wchar_t **argv)
 {
 	int USE_SSLEAY = 0;
 
-    cout << "openssldir_check v1.0 by 0xm1rch\n\n";
+	cout << "openssldir_check v1.0 by 0xm1rch\n\n";
 
 	if (argv[1] == NULL)
 	{
 		wcerr << "\nUsage: openssldir_check <path\\to\\libeay32.dll>          OpenSSL < 1.1";
-	    wcerr << "\n   or  openssldir_check <path\\to\\libcrypto-version.dll> OpenSSL >= 1.1+";
+		wcerr << "\n   or  openssldir_check <path\\to\\libcrypto-version.dll> OpenSSL >= 1.1+";
 		wcerr << "\n\nWARNING: Do not use an untrusted path!\n";
 		exit(EXIT_FAILURE);
 	}
