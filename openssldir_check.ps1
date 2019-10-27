@@ -9,11 +9,11 @@
 cd /code
 
 # Use libcrypto-1*.dll for OpenSSL 1.1+
-Get-ChildItem -path c:\ -Include libeay32.dll -recurse -ErrorAction SilentlyContinue | ForEach-Object -Process {
+Get-ChildItem -Path c:\ -Include libeay32.dll -Recurse -ErrorAction SilentlyContinue | ForEach-Object -Process {
 
     $f = $_.Fullname;
     Write-Host -ForegroundColor Yellow -NoNewline "Checking Library: ";
-    Write-host $f;
+    Write-Host $f;
 
     .\openssldir_check.exe $f
     # ERROR_BAD_EXE_FORMAT = 193. Assume the library is 32-bit.
@@ -22,5 +22,5 @@ Get-ChildItem -path c:\ -Include libeay32.dll -recurse -ErrorAction SilentlyCont
         Write-Debug "64-bit check failed - trying 32-bit"
         .\openssldir_check32.exe $f
     }
-    Write-host
+    Write-Host
 }
