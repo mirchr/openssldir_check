@@ -14,7 +14,7 @@ Additional functionality will be added as time permits. Here is functionality I 
 * XMl/json output
 
 ## Download
-The binaries can be downloaded directly from the CI [build server](https://ci.appveyor.com/project/mirchr/openssldir-check?branch=master). Click on the desired platform and then select Artifacts. Note: This is a temporary solution.
+The binaries can be downloaded directly from the CI [build server](https://ci.appveyor.com/project/mirchr/openssldir-check?branch=master). Click on the desired platform and then select Artifacts. Note: This is a temporary solution. Long term the binaries will be available directly from Github.
 
 ## Usage
 Note: Do not use this on untrusted paths. The utility attempts to load the library and call the OpenSSL function to determine the version and OPENSSLDIR path.
