@@ -12,4 +12,4 @@ artifacts:
   - path: 'Release\openssldir_check32.exe'
     name: openssldir_check32
 after_build:    
-   7z a openssldir_check.zip x64\Release\openssldir_check.exe Release\openssldir_check32.exe
+   7z a openssldir_check_{PLATFORM}.zip x64\Release\openssldir_check.exe Release\openssldir_check32.exe
