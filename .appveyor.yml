@@ -4,6 +4,7 @@ platform:
   - x86
   - x64
 configuration: Release
+allow_failures:
 build:
   project: openssldir_check.sln
 artifacts:
@@ -14,5 +15,4 @@ artifacts:
   - path: openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%.zip
     name: openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%
 after_build:
-   set
    7z a openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%.zip x64\Release\openssldir_check.exe
