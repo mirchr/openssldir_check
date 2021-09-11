@@ -4,7 +4,7 @@ matrix:
   - platform: x86
     configuration: Release
   - platform: x64
-    configuration: Release  
+    configuration: Release
 build:
   project: openssldir_check.sln
 artifacts:
