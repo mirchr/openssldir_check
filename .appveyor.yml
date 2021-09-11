@@ -10,7 +10,6 @@ environment:
 build:
   project: openssldir_check.sln
 for:
-
   -
     matrix:
       only:
@@ -18,7 +17,6 @@ for:
         
     after_build:
       7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%.zip Release\openssldir_check32.exe
-
   -
     matrix:
       only:
@@ -26,7 +24,6 @@ for:
 
     after_build:
       7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%.zip x64\Release\openssldir_check.exe
-    
 artifacts:
   - path: openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%.zip
     name: openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%
