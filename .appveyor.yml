@@ -16,7 +16,7 @@ for:
       only:
         - job_name: 32-bit Build
 
-    after_build: Create Package
+    after_build:
       7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-x86.zip x64\Release\openssldir_check32.exe
 
   -
@@ -24,7 +24,7 @@ for:
       only:
         - job_name: 64-bit Build
 
-    after_build: Create Package
+    after_build:
       7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-x64.zip x64\Release\openssldir_check.exe
     
 artifacts:
