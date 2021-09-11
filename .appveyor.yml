@@ -7,10 +7,6 @@ environment:
     platform: x86
   - job_name: 64-bit Build
     platform: x64
-    artifacts:
-      - path: 'x64\Release\openssldir_check.exe'
-        name: openssldir_check
-
 build:
   project: openssldir_check.sln
 for:
