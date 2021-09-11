@@ -2,10 +2,10 @@ version: 1.0.{build}
 image: Visual Studio 2017
 matrix:
   fast_finish: true
-    - platform: x86
-      configuration: Release
-    - platform: x64
-      configuration: Release 
+  - platform: x86
+    configuration: Release
+  - platform: x64
+    configuration: Release 
 build:
   project: openssldir_check.sln
 artifacts:
