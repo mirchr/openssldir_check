@@ -3,9 +3,8 @@ image: Visual Studio 2017
 configuration: Release
 environment:
   matrix:
-  - job_name: 32-bit Build
+  - job_name: 32-bit/64-bit Build
     platform: x86
-  - job_name: 64-bit Build
     platform: x64
 build:
   project: openssldir_check.sln
