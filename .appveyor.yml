@@ -15,4 +15,4 @@ artifacts:
     name: openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%
 after_build:
    set
-   7z a openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%.zip "*\Release*\openssldir_check*.exe" "Release\openssldir_check*.exe"
+   7z a openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%.zip x64\Release\openssldir_check.exe
