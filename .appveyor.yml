@@ -10,10 +10,27 @@ environment:
     artifacts:
       - path: 'x64\Release\openssldir_check.exe'
         name: openssldir_check
-    after_build: Create Package
-      7z a openssldir_check-%APPVEYOR_BUILD_VERSION%.zip x64\Release\openssldir_check.exe
+
 build:
   project: openssldir_check.sln
+for:
+
+  -
+    matrix:
+      only:
+        - job_name: 32-bit Build
+
+    after_build: Create Package
+      7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-x86.zip x64\Release\openssldir_check32.exe
+
+  -
+    matrix:
+      only:
+        - job_name: 64-bit Build
+
+    after_build: Create Package
+      7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-x64.zip x64\Release\openssldir_check.exe
+    
 artifacts:
   - path: 'x64\Release\openssldir_check.exe'
     name: openssldir_check
