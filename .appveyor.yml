@@ -14,4 +14,4 @@ artifacts:
   - path: openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%.zip
     name: openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%
 after_build:    
-   7z a openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%.zip x64\Release\openssldir_check.exe Release\openssldir_check32.exe
+   7z a openssldir_check_%PLATFORM%-%APPVEYOR_BUILD_VERSION%.zip x64\Release\openssldir_check.exe
