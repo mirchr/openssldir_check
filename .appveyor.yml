@@ -15,10 +15,6 @@ for:
     matrix:
       only:
         - job_name: 32-bit Build
-
-    artifacts:
-      - path: 'Release\openssldir_check32.exe'
-        name: openssldir_check
         
     after_build:
       7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%.zip Release\openssldir_check32.exe
@@ -32,9 +28,5 @@ for:
       7z a openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%.zip x64\Release\openssldir_check.exe
     
 artifacts:
-  - path: 'x64\Release\openssldir_check.exe'
-    name: openssldir_check
-  - path: 'Release\openssldir_check32.exe'
-    name: openssldir_check32
   - path: openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%.zip
     name: openssldir_check-%APPVEYOR_BUILD_VERSION%-%PLATFORM%
