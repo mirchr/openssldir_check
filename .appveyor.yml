@@ -1,9 +1,13 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 configuration: Release
-platform:
-  - x86
-  - x64
+environment:
+  matrix:
+  - job_name: 32-bit Build
+    platform: x86
+
+  - job_name: 64-bit Build
+    platform: x64
 build:
   project: openssldir_check.sln
 artifacts:
