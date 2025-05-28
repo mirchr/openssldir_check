@@ -1,11 +1,17 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 configuration: Release
-platform: Any CPU
-build:
-  project: openssldir_check.sln
+platform:
+  - x86
+  - x64
+
+build_script:
+  - msbuild openssldir_check.sln /p:Configuration=Release /p:Platform=%PLATFORM%
+
 artifacts:
-  - path: 'Release\openssldir_check.exe'
+  - path: 'x64\Release\openssldir_check64.exe'
     name: openssldir_check
-  - path: 'Release\openssldir_check32.exe'
+    type: file
+  - path: 'x86\Release\openssldir_check32.exe'
     name: openssldir_check32
+    type: file
