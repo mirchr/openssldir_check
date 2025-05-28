@@ -12,6 +12,6 @@ artifacts:
   - path: 'x64\Release\openssldir_check.exe'
     name: openssldir_check64
     type: file
-  - path: 'Release\openssldir_check.exe'
+  - path: 'Release\openssldir_check32.exe'
     name: openssldir_check32
     type: file
