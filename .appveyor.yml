@@ -9,9 +9,9 @@ build_script:
   - msbuild openssldir_check.sln /p:Configuration=Release /p:Platform=%PLATFORM%
 
 artifacts:
-  - path: 'x64\Release\openssldir_check64.exe'
-    name: openssldir_check
+  - path: 'x64\Release\openssldir_check.exe'
+    name: openssldir_check64
     type: file
-  - path: 'x86\Release\openssldir_check32.exe'
+  - path: 'Release\openssldir_check.exe'
     name: openssldir_check32
     type: file
