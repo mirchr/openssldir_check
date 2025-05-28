@@ -28,3 +28,8 @@ openssldir_check <path/to/libeay32.dll>
 
 ## Example
 ![Usage](https://mirchhome.files.wordpress.com/2019/06/openssldir_check-usage.png)
+
+## Known OPENSSLDIR Vulnerabilities 
+| CVE | Application | References | Credit |
+|----------|----------|----------|----------|
+| [CVE-2019-1552](https://nvd.nist.gov/vuln/detail/CVE-2019-1552)   | OpenSSL  | https://www.openssl.org/news/secadv/20190730.txt   | [Rich Mirch](https://x.com/0xm1rch) |
