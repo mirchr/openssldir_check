@@ -45,4 +45,4 @@ jobs:
       with:
         name: build-${{ matrix.platform }}
         path: |
-          **\bin\Release\${{ matrix.platform }}\*.exe
+          ${{ matrix.platform == 'x64' && 'x64\\Release\\openssldir_check_x64.exe' || 'Release\\openssldir_check_x86.exe' }}
