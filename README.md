@@ -17,7 +17,8 @@ Additional functionality will be added as time permits. Here is functionality I 
 The binaries can be downloaded directly from the latest GitHub Actions https://github.com/mirchr/openssldir_check/actions build. Note: This is a temporary solution. Long term the binaries will be available directly from Github releases.
 
 ## Usage
-Note: Do not use this on untrusted paths. The utility attempts to load the library and call the OpenSSL function to determine the version and OPENSSLDIR path.
+> [!WARNING]
+> Do not use this on untrusted paths. The utility attempts to load the library and call the OpenSSL function to determine the version and OPENSSLDIR path.
 
 > [!NOTE]
 > Use `openssldir_check_x86` for 32-bit libraries, and `openssldir_check_x64` for 64-bit libraries.
