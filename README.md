@@ -18,6 +18,9 @@ The binaries can be downloaded directly from the CI [build server](https://ci.ap
 
 ## Usage
 Note: Do not use this on untrusted paths. The utility attempts to load the library and call the OpenSSL function to determine the version and OPENSSLDIR path.
+
+> [!NOTE]
+> Use `openssldir_check_x86` for 32-bit libraries, and `openssldir_check_x64` for 64-bit libraries.
 ```
 # OpenSSL v1.1+
 openssldir_check <path/to/libcrypto-<version>.dll>
