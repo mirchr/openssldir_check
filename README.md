@@ -1,5 +1,5 @@
 # openssldir_check
-![Build status](https://ci.appveyor.com/api/projects/status/ub0p91a33qxpjhdq/branch/master?svg=true)
+![Build Status](https://github.com/mirchr/openssldir_check/actions/workflows/msbuild.yml/badge.svg)
 
 A Windows utility written in C++ to check for potential insecure paths used by the OPENSSLDIR build parameter in OpenSSL libraries. Applications that bundle OpenSSL libraries may have OPENSSLDIR set to a path that could be writable from a low privileged user account. Depending on how the application is written, it may automatically load OPENSSLDIR/openssl.cnf during startup or other specific conditions.
 
