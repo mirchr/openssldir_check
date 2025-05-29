@@ -36,6 +36,7 @@ openssldir_check <path/to/libeay32.dll>
 ## Known OPENSSLDIR Vulnerabilities 
 | CVE | Application | References | Credit |
 |----------|----------|----------|----------|
+|  [CVE-2025-47161](https://nvd.nist.gov/vuln/detail/CVE-2025-47161)  | Microsoft Defender for Endpoint (MDE)  | https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-47161   | [Rich Mirch](https://x.com/0xm1rch) |
 | [CVE-2019-1552](https://nvd.nist.gov/vuln/detail/CVE-2019-1552)   | OpenSSL  | https://www.openssl.org/news/secadv/20190730.txt   | [Rich Mirch](https://x.com/0xm1rch) |
 | [CVE-2019-2390](https://nvd.nist.gov/vuln/detail/CVE-2019-2390)   | mongoDB  | https://jira.mongodb.org/browse/SERVER-42233       | [Rich Mirch](https://x.com/0xm1rch) |
 | [CVE-2019-5443](https://nvd.nist.gov/vuln/detail/CVE-2019-5443)   | curl     | https://curl.se/docs/CVE-2019-5443.html<br>https://daniel.haxx.se/blog/2019/06/24/openssl-engine-code-injection-in-curl/       | [Rich Mirch](https://x.com/0xm1rch) |
