@@ -71,7 +71,7 @@ int wmain(int argc, wchar_t **argv)
 		USE_SSLEAY = 1;
 	}
 
-	HINSTANCE hLibModule = LoadLibrary(argv[1]);
+	HINSTANCE hLibModule = LoadLibraryW(argv[1]);
 
 	if (!hLibModule)
 	{
