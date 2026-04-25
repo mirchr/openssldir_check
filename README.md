@@ -12,6 +12,7 @@ Additional functionality will be added as time permits. Here is functionality I 
 * Create option to search the file system for OpenSSL libraries
 * Logging
 * XMl/json output
+* TODO: Code-sign released binaries (evaluate Azure Trusted Signing vs. EV cert from a cloud signing service)
 
 ## Download
 The binaries can be downloaded directly from the latest GitHub Actions https://github.com/mirchr/openssldir_check/actions build. Note: This is a temporary solution. Long term the binaries will be available directly from Github releases.
