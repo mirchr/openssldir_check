@@ -37,27 +37,27 @@ TODO: Add screenshot of example usage
 ## Known OPENSSLDIR Vulnerabilities 
 | CVE | Application | References | Credit |
 |----------|----------|----------|----------|
-| [CVE-2026-6482](https://nvd.nist.gov/vuln/detail/CVE-2026-6482) | Rapid7 Insight Agent (Windows) | https://docs.rapid7.com/insight/release-notes-2026-april/ | Dell Security Assurance |
-| [CVE-2026-3991](https://nvd.nist.gov/vuln/detail/CVE-2026-3991) | Symantec/Broadcom DLP Agent | https://labs.infoguard.ch/advisories/cve-2026-3991_symantec-dlp-agent_local-privilege-escalation/ | [Manuel Feifel](https://labs.infoguard.ch/) (InfoGuard Labs) |
-| [CVE-2025-53841](https://nvd.nist.gov/vuln/detail/CVE-2025-53841) | Akamai Guardicore Platform Agent | https://www.akamai.com/blog/security/2025/dec/advisory-cve-2025-53841-guardicore-local-privilege-escalation | [SECURITEAM / Beyond Security SSD](https://securiteam.io/2025/09/08/privilege-escalation-akamai-guardicore-platform-agent/) |
-| [CVE-2025-47161](https://nvd.nist.gov/vuln/detail/CVE-2025-47161) | Microsoft Defender for Endpoint (MDE) | https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-47161<br>https://www.stratascale.com/resource/cve-2025-47161-osquery-defender-linux/ | [Rich Mirch](https://x.com/0xm1rch) |
-| [CVE-2025-35471](https://nvd.nist.gov/vuln/detail/CVE-2025-35471) | conda-forge | https://github.com/conda-forge/openssl-feedstock/issues/201 | [Will Dormann](https://github.com/wdormann) |
-| [CVE-2025-2272](https://nvd.nist.gov/vuln/detail/CVE-2025-2272) | Forcepoint Endpoint DLP | https://www.triskelelabs.com/blog/cve-2025-2272-forcepoint-endpoint-dlp-privilege-escalation | [Triskele Labs](https://www.triskelelabs.com/) |
-| [CVE-2024-6975](https://nvd.nist.gov/vuln/detail/CVE-2024-6975) | Cato Networks SDP Client | https://blog.amberwolf.com/blog/2024/july/cve-2024-6975-cato-client-local-privilege-escalation-via-openssl-configuration-file/ | [AmberWolf](https://blog.amberwolf.com/) |
-| [CVE-2024-0394](https://nvd.nist.gov/vuln/detail/CVE-2024-0394) | Rapid7 Minerva Armor | https://www.rapid7.com/blog/post/2024/04/03/cve-2024-0394-rapid7-minerva-armor-privilege-escalation-fixed/ | [Will Dormann](https://github.com/wdormann) |
-| [CVE-2023-41840](https://nvd.nist.gov/vuln/detail/CVE-2023-41840) | FortiClient Windows | https://www.fortiguard.com/psirt/FG-IR-23-274 | Undisclosed |
-| [CVE-2023-40596](https://nvd.nist.gov/vuln/detail/CVE-2023-40596) | Splunk Enterprise for Windows | https://advisory.splunk.com/advisories/SVD-2023-0805 | Undisclosed |
-| [CVE-2022-32223](https://nvd.nist.gov/vuln/detail/CVE-2022-32223) | Node.js / npm CLI | https://www.aquasec.com/blog/cve-2022-32223-dll-hijacking/ | [Yakir Kadkoda](https://www.aquasec.com/) (Aqua Security) |
-| [CVE-2022-26872](https://nvd.nist.gov/vuln/detail/CVE-2022-26872) | Tychon Endpoint | https://www.kb.cert.org/vuls/id/730007 | [Will Dormann](https://github.com/wdormann) |
-| [CVE-2022-0166](https://nvd.nist.gov/vuln/detail/CVE-2022-0166) | McAfee Agent | https://www.kb.cert.org/vuls/id/287178 | [Will Dormann](https://github.com/wdormann) |
-| [CVE-2021-2356](https://nvd.nist.gov/vuln/detail/CVE-2021-2356) | MySQL for Windows | https://www.kb.cert.org/vuls/id/567764 | [Will Dormann](https://github.com/wdormann) |
-| [CVE-2021-2307](https://nvd.nist.gov/vuln/detail/CVE-2021-2307) | OPENSSLDIR class research paper | https://www.exploit-db.com/docs/english/50747-openssldir-privilege-escalation-cve-2021-2307---paper.pdf | Marlon Petry |
-| [CVE-2020-10143](https://nvd.nist.gov/vuln/detail/CVE-2020-10143) | Macrium Reflect | https://www.kb.cert.org/vuls/id/760767 | [Will Dormann](https://github.com/wdormann) |
-| [CVE-2019-12572](https://nvd.nist.gov/vuln/detail/CVE-2019-12572) | PIA VPN | https://blog.mirch.io/2019/06/10/cve-2019-12572-pia-windows-privilege-escalation-malicious-openssl-engine/ | [Rich Mirch](https://x.com/0xm1rch) |
-| [CVE-2019-10211](https://nvd.nist.gov/vuln/detail/CVE-2019-10211) | PostgreSQL | https://www.postgresql.org/support/security/CVE-2019-10211/ | [Daniel Gustafsson](https://github.com/danielgustafsson) |
-| [CVE-2019-5443](https://nvd.nist.gov/vuln/detail/CVE-2019-5443) | curl | https://curl.se/docs/CVE-2019-5443.html<br>https://daniel.haxx.se/blog/2019/06/24/openssl-engine-code-injection-in-curl/ | [Rich Mirch](https://x.com/0xm1rch) |
-| [CVE-2019-2390](https://nvd.nist.gov/vuln/detail/CVE-2019-2390) | mongoDB | https://jira.mongodb.org/browse/SERVER-42233 | [Rich Mirch](https://x.com/0xm1rch) |
-| [CVE-2019-1552](https://nvd.nist.gov/vuln/detail/CVE-2019-1552) | OpenSSL | https://www.openssl.org/news/secadv/20190730.txt | [Rich Mirch](https://x.com/0xm1rch) |
+| [CVE&#8209;2026&#8209;6482](https://nvd.nist.gov/vuln/detail/CVE-2026-6482) | Rapid7 Insight Agent (Windows) | https://docs.rapid7.com/insight/release-notes-2026-april/ | Dell Security Assurance |
+| [CVE&#8209;2026&#8209;3991](https://nvd.nist.gov/vuln/detail/CVE-2026-3991) | Symantec/Broadcom DLP Agent | https://labs.infoguard.ch/advisories/cve-2026-3991_symantec-dlp-agent_local-privilege-escalation/ | [Manuel Feifel](https://labs.infoguard.ch/) (InfoGuard Labs) |
+| [CVE&#8209;2025&#8209;53841](https://nvd.nist.gov/vuln/detail/CVE-2025-53841) | Akamai Guardicore Platform Agent | https://www.akamai.com/blog/security/2025/dec/advisory-cve-2025-53841-guardicore-local-privilege-escalation | [SECURITEAM / Beyond Security SSD](https://securiteam.io/2025/09/08/privilege-escalation-akamai-guardicore-platform-agent/) |
+| [CVE&#8209;2025&#8209;47161](https://nvd.nist.gov/vuln/detail/CVE-2025-47161) | Microsoft Defender for Endpoint (MDE) | https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-47161<br>https://www.stratascale.com/resource/cve-2025-47161-osquery-defender-linux/ | [Rich Mirch](https://x.com/0xm1rch) |
+| [CVE&#8209;2025&#8209;35471](https://nvd.nist.gov/vuln/detail/CVE-2025-35471) | conda-forge | https://github.com/conda-forge/openssl-feedstock/issues/201 | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2025&#8209;2272](https://nvd.nist.gov/vuln/detail/CVE-2025-2272) | Forcepoint Endpoint DLP | https://www.triskelelabs.com/blog/cve-2025-2272-forcepoint-endpoint-dlp-privilege-escalation | [Triskele Labs](https://www.triskelelabs.com/) |
+| [CVE&#8209;2024&#8209;6975](https://nvd.nist.gov/vuln/detail/CVE-2024-6975) | Cato Networks SDP Client | https://blog.amberwolf.com/blog/2024/july/cve-2024-6975-cato-client-local-privilege-escalation-via-openssl-configuration-file/ | [AmberWolf](https://blog.amberwolf.com/) |
+| [CVE&#8209;2024&#8209;0394](https://nvd.nist.gov/vuln/detail/CVE-2024-0394) | Rapid7 Minerva Armor | https://www.rapid7.com/blog/post/2024/04/03/cve-2024-0394-rapid7-minerva-armor-privilege-escalation-fixed/ | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2023&#8209;41840](https://nvd.nist.gov/vuln/detail/CVE-2023-41840) | FortiClient Windows | https://www.fortiguard.com/psirt/FG-IR-23-274 | Undisclosed |
+| [CVE&#8209;2023&#8209;40596](https://nvd.nist.gov/vuln/detail/CVE-2023-40596) | Splunk Enterprise for Windows | https://advisory.splunk.com/advisories/SVD-2023-0805 | Undisclosed |
+| [CVE&#8209;2022&#8209;32223](https://nvd.nist.gov/vuln/detail/CVE-2022-32223) | Node.js / npm CLI | https://www.aquasec.com/blog/cve-2022-32223-dll-hijacking/ | [Yakir Kadkoda](https://www.aquasec.com/) (Aqua Security) |
+| [CVE&#8209;2022&#8209;26872](https://nvd.nist.gov/vuln/detail/CVE-2022-26872) | Tychon Endpoint | https://www.kb.cert.org/vuls/id/730007 | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2022&#8209;0166](https://nvd.nist.gov/vuln/detail/CVE-2022-0166) | McAfee Agent | https://www.kb.cert.org/vuls/id/287178 | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2021&#8209;2356](https://nvd.nist.gov/vuln/detail/CVE-2021-2356) | MySQL for Windows | https://www.kb.cert.org/vuls/id/567764 | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2021&#8209;2307](https://nvd.nist.gov/vuln/detail/CVE-2021-2307) | OPENSSLDIR class research paper | https://www.exploit-db.com/docs/english/50747-openssldir-privilege-escalation-cve-2021-2307---paper.pdf | Marlon Petry |
+| [CVE&#8209;2020&#8209;10143](https://nvd.nist.gov/vuln/detail/CVE-2020-10143) | Macrium Reflect | https://www.kb.cert.org/vuls/id/760767 | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2019&#8209;12572](https://nvd.nist.gov/vuln/detail/CVE-2019-12572) | PIA VPN | https://blog.mirch.io/2019/06/10/cve-2019-12572-pia-windows-privilege-escalation-malicious-openssl-engine/ | [Rich Mirch](https://x.com/0xm1rch) |
+| [CVE&#8209;2019&#8209;10211](https://nvd.nist.gov/vuln/detail/CVE-2019-10211) | PostgreSQL | https://www.postgresql.org/support/security/CVE-2019-10211/ | [Daniel Gustafsson](https://github.com/danielgustafsson) |
+| [CVE&#8209;2019&#8209;5443](https://nvd.nist.gov/vuln/detail/CVE-2019-5443) | curl | https://curl.se/docs/CVE-2019-5443.html<br>https://daniel.haxx.se/blog/2019/06/24/openssl-engine-code-injection-in-curl/ | [Rich Mirch](https://x.com/0xm1rch) |
+| [CVE&#8209;2019&#8209;2390](https://nvd.nist.gov/vuln/detail/CVE-2019-2390) | mongoDB | https://jira.mongodb.org/browse/SERVER-42233 | [Rich Mirch](https://x.com/0xm1rch) |
+| [CVE&#8209;2019&#8209;1552](https://nvd.nist.gov/vuln/detail/CVE-2019-1552) | OpenSSL | https://www.openssl.org/news/secadv/20190730.txt | [Rich Mirch](https://x.com/0xm1rch) |
 | N/A | stunnel | [https://www.openssl.org/news/secadv/20190730.txt](https://www.stunnel.org/pipermail/stunnel-announce/2019-June/000145.html) | [Rich Mirch](https://x.com/0xm1rch) |
 
 
