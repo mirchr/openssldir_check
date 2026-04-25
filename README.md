@@ -49,6 +49,7 @@ TODO: Add screenshot of example usage
 | [CVE&#8209;2023&#8209;41840](https://nvd.nist.gov/vuln/detail/CVE-2023-41840) | FortiClient Windows | [FortiGuard PSIRT](https://www.fortiguard.com/psirt/FG-IR-23-274) | Undisclosed |
 | [CVE&#8209;2023&#8209;40596](https://nvd.nist.gov/vuln/detail/CVE-2023-40596) | Splunk Enterprise for Windows | [Splunk SVD-2023-0805](https://advisory.splunk.com/advisories/SVD-2023-0805) | [Will Dormann](https://github.com/wdormann) |
 | [CVE&#8209;2022&#8209;32223](https://nvd.nist.gov/vuln/detail/CVE-2022-32223) | Node.js / npm CLI | [Aqua Security Blog](https://www.aquasec.com/blog/cve-2022-32223-dll-hijacking/) | [Yakir Kadkoda](https://www.aquasec.com/) (Aqua Security) |
+| [CVE&#8209;2022&#8209;29505](https://nvd.nist.gov/vuln/detail/CVE-2022-29505) | LINE for Windows | — | Undisclosed |
 | [CVE&#8209;2022&#8209;26872](https://nvd.nist.gov/vuln/detail/CVE-2022-26872) | Tychon Endpoint | [CERT VU#730007](https://www.kb.cert.org/vuls/id/730007) | [Will Dormann](https://github.com/wdormann) |
 | [CVE&#8209;2022&#8209;0166](https://nvd.nist.gov/vuln/detail/CVE-2022-0166) | McAfee Agent | [CERT VU#287178](https://www.kb.cert.org/vuls/id/287178) | [Will Dormann](https://github.com/wdormann) |
 | [CVE&#8209;2021&#8209;2356](https://nvd.nist.gov/vuln/detail/CVE-2021-2356) | Oracle MySQL for Windows | [Oracle CPU July 2021](https://www.oracle.com/security-alerts/cpujul2021.html) | [Will Dormann](https://github.com/wdormann) |
