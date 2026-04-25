@@ -22,17 +22,17 @@ The binaries can be downloaded directly from the latest GitHub Actions https://g
 > Do not use this on untrusted paths. The utility attempts to load the library and call the OpenSSL function to determine the version and OPENSSLDIR path.
 
 > [!NOTE]
-> Use `openssldir_check_x86` for 32-bit libraries, and `openssldir_check_x64` for 64-bit libraries.
+> Use `openssldir_check_x86.exe` for 32-bit libraries, and `openssldir_check_x64.exe` for 64-bit libraries.
 ```
 # OpenSSL v1.1+
-openssldir_check <path/to/libcrypto-<version>.dll>
+openssldir_check_x64.exe <path/to/libcrypto-<version>.dll>
 
 # OpenSSL < v1.1
-openssldir_check <path/to/libeay32.dll>
+openssldir_check_x86.exe <path/to/libeay32.dll>
 ```
 
 ## Example
-![Usage](https://mirchhome.files.wordpress.com/2019/06/openssldir_check-usage.png)
+TODO: Add screenshot of example usage
 
 ## Known OPENSSLDIR Vulnerabilities 
 | CVE | Application | References | Credit |
