@@ -37,6 +37,7 @@ TODO: Add screenshot of example usage
 ## Known OPENSSLDIR Vulnerabilities 
 | CVE | Application | References | Credit |
 |----------|----------|----------|----------|
+| [CVE&#8209;2026&#8209;34054](https://nvd.nist.gov/vuln/detail/CVE-2026-34054) | Microsoft vcpkg (OpenSSL Windows build) | [GHSA-p322-v6vw-vrq9](https://github.com/microsoft/vcpkg/security/advisories/GHSA-p322-v6vw-vrq9) | Xavier DANEST (via [Trend Micro ZDI](https://www.zerodayinitiative.com/)) |
 | [CVE&#8209;2026&#8209;6482](https://nvd.nist.gov/vuln/detail/CVE-2026-6482) | Rapid7 Insight Agent (Windows) | [Rapid7 Release Notes](https://docs.rapid7.com/insight/release-notes-2026-april/) | Dell Security Assurance |
 | [CVE&#8209;2026&#8209;3991](https://nvd.nist.gov/vuln/detail/CVE-2026-3991) | Symantec/Broadcom DLP Agent | [InfoGuard Labs Advisory](https://labs.infoguard.ch/advisories/cve-2026-3991_symantec-dlp-agent_local-privilege-escalation/) | [Manuel Feifel](https://labs.infoguard.ch/) (InfoGuard Labs) |
 | [CVE&#8209;2025&#8209;53841](https://nvd.nist.gov/vuln/detail/CVE-2025-53841) | Akamai Guardicore Platform Agent | [Akamai Advisory](https://www.akamai.com/blog/security/2025/dec/advisory-cve-2025-53841-guardicore-local-privilege-escalation) | [SECURITEAM / Beyond Security SSD](https://securiteam.io/2025/09/08/privilege-escalation-akamai-guardicore-platform-agent/) |
@@ -52,12 +53,27 @@ TODO: Add screenshot of example usage
 | [CVE&#8209;2022&#8209;0166](https://nvd.nist.gov/vuln/detail/CVE-2022-0166) | McAfee Agent | [CERT VU#287178](https://www.kb.cert.org/vuls/id/287178) | [Will Dormann](https://github.com/wdormann) |
 | [CVE&#8209;2021&#8209;2356](https://nvd.nist.gov/vuln/detail/CVE-2021-2356) | MySQL for Windows | [CERT VU#567764](https://www.kb.cert.org/vuls/id/567764) | [Will Dormann](https://github.com/wdormann) |
 | [CVE&#8209;2021&#8209;2307](https://nvd.nist.gov/vuln/detail/CVE-2021-2307) | OPENSSLDIR class research paper | [Exploit-DB Paper #50747](https://www.exploit-db.com/docs/english/50747-openssldir-privilege-escalation-cve-2021-2307---paper.pdf) | Marlon Petry |
+| [CVE&#8209;2020&#8209;36169](https://nvd.nist.gov/vuln/detail/CVE-2020-36169) | Veritas NetBackup / OpsCenter (Windows) | [Veritas VTS20-016](https://www.veritas.com/content/support/en_US/security/VTS20-016) | Undisclosed |
+| [CVE&#8209;2020&#8209;36168](https://nvd.nist.gov/vuln/detail/CVE-2020-36168) | Veritas Resiliency Platform | [Veritas VTS20-015](https://www.veritas.com/content/support/en_US/security/VTS20-015) | Undisclosed |
+| [CVE&#8209;2020&#8209;36167](https://nvd.nist.gov/vuln/detail/CVE-2020-36167) | Veritas Backup Exec | [Veritas VTS20-010](https://www.veritas.com/content/support/en_US/security/VTS20-010)<br>[CERT VU#429301](https://www.kb.cert.org/vuls/id/429301) | Undisclosed |
+| [CVE&#8209;2020&#8209;36166](https://nvd.nist.gov/vuln/detail/CVE-2020-36166) | Veritas InfoScale / Storage Foundation / VIOM | [Veritas VTS20-014](https://www.veritas.com/content/support/en_US/security/VTS20-014) | Undisclosed |
+| [CVE&#8209;2020&#8209;36165](https://nvd.nist.gov/vuln/detail/CVE-2020-36165) | Veritas Desktop and Laptop Option (DLO) | [Veritas VTS20-012](https://www.veritas.com/content/support/en_US/security/VTS20-012) | Undisclosed |
+| [CVE&#8209;2020&#8209;36164](https://nvd.nist.gov/vuln/detail/CVE-2020-36164) | Veritas Enterprise Vault | [Veritas VTS20-013](https://www.veritas.com/content/support/en_US/security/VTS20-013) | Undisclosed |
+| [CVE&#8209;2020&#8209;36163](https://nvd.nist.gov/vuln/detail/CVE-2020-36163) | Veritas NetBackup / OpsCenter (Windows) | [Veritas VTS20-016](https://www.veritas.com/content/support/en_US/security/VTS20-016) | Undisclosed |
+| [CVE&#8209;2020&#8209;36162](https://nvd.nist.gov/vuln/detail/CVE-2020-36162) | Veritas CloudPoint (Windows Agent) | [Veritas VTS20-011](https://www.veritas.com/content/support/en_US/security/VTS20-011) | Undisclosed |
+| [CVE&#8209;2020&#8209;36161](https://nvd.nist.gov/vuln/detail/CVE-2020-36161) | Veritas APTARE IT Analytics | [Veritas VTS20-009](https://www.veritas.com/content/support/en_US/security/VTS20-009) | Undisclosed |
+| [CVE&#8209;2020&#8209;36160](https://nvd.nist.gov/vuln/detail/CVE-2020-36160) | Veritas System Recovery | [Veritas VTS20-017](https://www.veritas.com/content/support/en_US/security/VTS20-017) | Undisclosed |
 | [CVE&#8209;2020&#8209;10143](https://nvd.nist.gov/vuln/detail/CVE-2020-10143) | Macrium Reflect | [CERT VU#760767](https://www.kb.cert.org/vuls/id/760767) | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2020&#8209;10139](https://nvd.nist.gov/vuln/detail/CVE-2020-10139) | Acronis True Image 2021 | [CERT VU#114757](https://www.kb.cert.org/vuls/id/114757) | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2020&#8209;10138](https://nvd.nist.gov/vuln/detail/CVE-2020-10138) | Acronis Cyber Backup / Cyber Protect | [CERT VU#114757](https://www.kb.cert.org/vuls/id/114757) | [Will Dormann](https://github.com/wdormann) |
+| [CVE&#8209;2020&#8209;8224](https://nvd.nist.gov/vuln/detail/CVE-2020-8224) | Nextcloud Desktop Client | [HackerOne #622170](https://hackerone.com/reports/622170) | Undisclosed |
+| [CVE&#8209;2020&#8209;7224](https://nvd.nist.gov/vuln/detail/CVE-2020-7224) | Aviatrix OpenVPN Client | [blog.mirch.io](https://blog.mirch.io/cve/) | [Rich Mirch](https://x.com/0xm1rch) |
 | [CVE&#8209;2019&#8209;12572](https://nvd.nist.gov/vuln/detail/CVE-2019-12572) | PIA VPN | [blog.mirch.io](https://blog.mirch.io/2019/06/10/cve-2019-12572-pia-windows-privilege-escalation-malicious-openssl-engine/) | [Rich Mirch](https://x.com/0xm1rch) |
 | [CVE&#8209;2019&#8209;10211](https://nvd.nist.gov/vuln/detail/CVE-2019-10211) | PostgreSQL | [PostgreSQL Security](https://www.postgresql.org/support/security/CVE-2019-10211/) | [Daniel Gustafsson](https://github.com/danielgustafsson) |
 | [CVE&#8209;2019&#8209;5443](https://nvd.nist.gov/vuln/detail/CVE-2019-5443) | curl | [curl.se](https://curl.se/docs/CVE-2019-5443.html)<br>[daniel.haxx.se](https://daniel.haxx.se/blog/2019/06/24/openssl-engine-code-injection-in-curl/) | [Rich Mirch](https://x.com/0xm1rch) |
 | [CVE&#8209;2019&#8209;2390](https://nvd.nist.gov/vuln/detail/CVE-2019-2390) | mongoDB | [MongoDB SERVER-42233](https://jira.mongodb.org/browse/SERVER-42233) | [Rich Mirch](https://x.com/0xm1rch) |
 | [CVE&#8209;2019&#8209;1552](https://nvd.nist.gov/vuln/detail/CVE-2019-1552) | OpenSSL | [OpenSSL Security Advisory](https://www.openssl.org/news/secadv/20190730.txt) | [Rich Mirch](https://x.com/0xm1rch) |
+| N/A | Monero Wallet GUI (Windows) | [HackerOne #630903](https://hackerone.com/reports/630903) | [l00ph0le](https://hackerone.com/l00ph0le) |
 | N/A | stunnel | [stunnel-announce](https://www.stunnel.org/pipermail/stunnel-announce/2019-June/000145.html) | [Rich Mirch](https://x.com/0xm1rch) |
 
 
