@@ -37,6 +37,7 @@ TODO: Add screenshot of example usage
 ## Known OPENSSLDIR Vulnerabilities 
 | CVE | Application | References | Credit |
 |----------|----------|----------|----------|
+| [CVE-2026-6482](https://nvd.nist.gov/vuln/detail/CVE-2026-6482) | Rapid7 Insight Agent (Windows) | https://docs.rapid7.com/insight/release-notes-2026-april/ | Dell Security Assurance |
 | [CVE-2026-3991](https://nvd.nist.gov/vuln/detail/CVE-2026-3991) | Symantec/Broadcom DLP Agent | https://labs.infoguard.ch/advisories/cve-2026-3991_symantec-dlp-agent_local-privilege-escalation/ | [Manuel Feifel](https://labs.infoguard.ch/) (InfoGuard Labs) |
 | [CVE-2025-53841](https://nvd.nist.gov/vuln/detail/CVE-2025-53841) | Akamai Guardicore Platform Agent | https://www.akamai.com/blog/security/2025/dec/advisory-cve-2025-53841-guardicore-local-privilege-escalation | [SECURITEAM / Beyond Security SSD](https://securiteam.io/2025/09/08/privilege-escalation-akamai-guardicore-platform-agent/) |
 | [CVE-2025-47161](https://nvd.nist.gov/vuln/detail/CVE-2025-47161) | Microsoft Defender for Endpoint (MDE) | https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-47161<br>https://www.stratascale.com/resource/cve-2025-47161-osquery-defender-linux/ | [Rich Mirch](https://x.com/0xm1rch) |
