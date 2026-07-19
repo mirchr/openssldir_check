@@ -37,6 +37,7 @@ TODO: Add screenshot of example usage
 ## Known OPENSSLDIR Vulnerabilities 
 | CVE | Application | References | Credit |
 |----------|----------|----------|----------|
+| [CVE&#8209;2026&#8209;7373](https://nvd.nist.gov/vuln/detail/CVE-2026-7373) | Metasploit Pro | [Metasploit Pro Version 5.0.0-2026051301 Release Notes](https://docs.rapid7.com/insight/release-notes-5.0.0-2026051301/) | Andrea Intilangelo |
 | [CVE&#8209;2026&#8209;34054](https://nvd.nist.gov/vuln/detail/CVE-2026-34054) | Microsoft vcpkg (OpenSSL Windows build) | [GHSA-p322-v6vw-vrq9](https://github.com/microsoft/vcpkg/security/advisories/GHSA-p322-v6vw-vrq9) | Xavier DANEST (via [Trend Micro ZDI](https://www.zerodayinitiative.com/)) |
 | [CVE&#8209;2026&#8209;6482](https://nvd.nist.gov/vuln/detail/CVE-2026-6482) | Rapid7 Insight Agent (Windows) | [Rapid7 Release Notes](https://docs.rapid7.com/insight/release-notes-2026-april/) | Dell Security Assurance |
 | [CVE&#8209;2026&#8209;3991](https://nvd.nist.gov/vuln/detail/CVE-2026-3991) | Symantec/Broadcom DLP Agent | [InfoGuard Labs Advisory](https://labs.infoguard.ch/advisories/cve-2026-3991_symantec-dlp-agent_local-privilege-escalation/) | [Manuel Feifel](https://labs.infoguard.ch/) (InfoGuard Labs) |
